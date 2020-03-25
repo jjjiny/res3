@@ -33,6 +33,7 @@ public class DemoTest {
         List<User> list=userDao.findAll();
        for(User uu: list){
            System.out.println(uu);
+           System.out.println("6666");
        }
     }
 }
